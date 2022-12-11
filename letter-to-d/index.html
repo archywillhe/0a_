@@ -73,6 +73,10 @@ Archy<br/>
   var v = document.getElementById('key')
   var b = document.getElementById('control')
   function unlock(){
+    if(v.value.length!==10){
+      alert("the password should be 10-characters long.")
+      return 
+    }
     if(v.value==='2021-12-10'){
     a.style.display = 'block'
     b.style.display = 'none'
