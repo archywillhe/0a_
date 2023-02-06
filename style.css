@@ -26,10 +26,14 @@ html, body {
 .social-network a{
     margin: 0 7px
 }
-a{
-    color:rgb(255, 174, 66)
+.lang a{
+  margin-left: 10px;
 }
- a:link, a:visited {
+.another-lang{
+    color:rgb(255, 174, 66);
+   
+}
+ .another-lang:link,.another-lang:visited {
       color:rgb(255, 174, 66)
   }
   a:hover{
