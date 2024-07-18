@@ -18,7 +18,14 @@ input {
   -moz-box-sizing: border-box;
   box-sizing: border-box;
   border: none;
-  font-family: "Lato"; }
+
+}
+
+code{
+  padding: 2px 8px;
+  margin: 0 4px;
+  background-color: #efefef;
+}
 
 html, body {
   position: relative; }
